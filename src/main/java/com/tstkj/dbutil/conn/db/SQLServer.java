@@ -15,7 +15,11 @@ import com.tstkj.dbutil.conn.entry.JDBCEntry;
 import com.tstkj.dbutil.conn.entry.TableBaseInfo;
 import com.tstkj.dbutil.conn.entry.TableInfoVO;
 import com.tstkj.dbutil.exception.DBUtilException;
-
+/**
+ * 
+ * @author mqy
+ *
+ */
 public class SQLServer implements DBUtil {
 
 	private final String SQL_URL = "jdbc:sqlserver://@{url};DatabaseName=@{dbname}";

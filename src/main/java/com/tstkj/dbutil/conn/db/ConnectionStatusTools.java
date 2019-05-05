@@ -7,6 +7,11 @@ import com.tstkj.dbutil.conn.db.util.ConnList;
 import com.tstkj.dbutil.conn.db.util.JDBCUtil;
 import com.tstkj.dbutil.conn.entry.JDBCEntry;
 
+/**
+ * 
+ * @author mqy
+ *
+ */
 public class ConnectionStatusTools {
 
 	protected Connection checkAndCreate(String dbType, String dbName, JDBCEntry entry)

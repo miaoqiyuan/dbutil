@@ -1,5 +1,9 @@
 package com.tstkj.dbutil.conn.db.util;
-
+/**
+ * 
+ * @author mqy
+ *
+ */
 public class DBTYPE {
 	public static final String MYSQL = "mysql";
 	public static final String HIVE = "hive";

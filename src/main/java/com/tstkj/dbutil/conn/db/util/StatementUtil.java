@@ -4,7 +4,11 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+/**
+ * 
+ * @author mqy
+ *
+ */
 public class StatementUtil {
 
 	public static PreparedStatement create(Connection conn, String sql) throws SQLException {

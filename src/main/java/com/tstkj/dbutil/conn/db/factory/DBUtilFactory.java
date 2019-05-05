@@ -6,7 +6,11 @@ import com.tstkj.dbutil.conn.db.SQLServer;
 import com.tstkj.dbutil.conn.db._interface.DBUtil;
 import com.tstkj.dbutil.conn.db.util.DBTYPE;
 import com.tstkj.dbutil.conn.entry.ConnectionInfoVO;
-
+/**
+ * 
+ * @author mqy
+ *
+ */
 public class DBUtilFactory {
 
 	private DBUtilFactory() {

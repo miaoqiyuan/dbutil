@@ -11,7 +11,11 @@ import com.tstkj.dbutil.conn.entry.JDBCEntry;
 import com.tstkj.dbutil.conn.entry.TableBaseInfo;
 import com.tstkj.dbutil.conn.entry.TableInfoVO;
 import com.tstkj.dbutil.util.StringUtils;
-
+/**
+ * 
+ * @author mqy
+ *
+ */
 public class CovertTools {
 
 	protected List<String> convert2TableName(PreparedStatement statement) throws SQLException {

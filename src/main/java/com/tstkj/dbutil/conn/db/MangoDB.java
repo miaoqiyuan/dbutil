@@ -7,7 +7,11 @@ import com.tstkj.dbutil.conn.db._interface.DBUtil;
 import com.tstkj.dbutil.conn.entry.TableBaseInfo;
 import com.tstkj.dbutil.conn.entry.TableInfoVO;
 import com.tstkj.dbutil.exception.DBUtilException;
-
+/**
+ * 
+ * @author mqy
+ *
+ */
 //TODO 
 public class MangoDB implements DBUtil {
 

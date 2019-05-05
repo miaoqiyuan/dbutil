@@ -5,7 +5,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 import com.tstkj.dbutil.conn.entry.JDBCEntry;
-
+/**
+ * 
+ * @author mqy
+ *
+ */
 public class JDBCUtil {
 
 	public static Connection getConnection(JDBCEntry vo) throws ClassNotFoundException, SQLException {
